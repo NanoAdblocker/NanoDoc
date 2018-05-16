@@ -22,7 +22,7 @@ The dashboard can be opened from the popup panel or extension options.
   * [Hyperlink auditing](https://github.com/gorhill/uBlock/wiki/Disable-hyperlink-auditing-beacon)
   * [WebRTC IP leaking](https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address)
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
-  * [Importing filter lists (slightly out of date)](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
+  * [Importing filter lists (slightly out of date)](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
 * [My filters]
   * [Procedural cosmetic filters](https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters)
   * [Inline script tag filtering (out of date)](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering)
