@@ -32,10 +32,12 @@ The logger can be opened from the popup panel
 
 The internal optimizations and tips on writting fast filters.
 
-* [DOM surveyor] - Related to [this](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update) but need to be updated
+* [Cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F)
+  * [DOM surveyor] - Related to [this](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update) but need to be updated
 
 ## Other details
 
 * [Comparision of adblockers](/en/ComparisonOfAdblockers.MD)
 * [Deploy with management policy](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
+* [General implementation overview](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
 * [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
