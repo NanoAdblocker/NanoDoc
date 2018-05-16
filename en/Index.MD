@@ -7,9 +7,6 @@ Unless otherwise stated, Nano Adblocker behaves similarly to uBlock Origin.
 The window that opens when you click the extension icon.
 
 * [Overview](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
-* [Element picker](https://github.com/gorhill/uBlock/wiki/Element-picker)
-* [Element zapper](https://github.com/gorhill/uBlock/wiki/Element-zapper)
-* [Per-site switches](https://github.com/gorhill/uBlock/wiki/Per-site-switches)
 * [Icon badge](https://github.com/gorhill/uBlock/wiki/Technical-inaccuracies-from-around-the-web)
 
 ## Dashboard
