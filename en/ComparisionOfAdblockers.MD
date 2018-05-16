@@ -24,7 +24,7 @@ so you can choose the best one for you.
 * Is well funded, has full time staff and customer help desk
 
 **Cons**
-* Does not support custom filter list subscription
+* Does not support custom filter list subscriptions
 
 ## Fair adblock
 
@@ -35,7 +35,7 @@ so you can choose the best one for you.
 
 **Cons**
 * Only has a very limited set of filters
-* Does not support custom filter rules nor custom filter list subscription
+* Does not support custom filter rules nor custom filter list subscriptions
 
 ## Hosts file based adblockers
 
@@ -49,17 +49,7 @@ to block ads. This includes AdAway, DNS66, Pi Hole, etc.
 * Could be difficult to set up
 * May not be able to block all ads due to limitation of hosts files
 
-## Nano Adblocker and uBlock Origin
-
-**Pros**
-* Are easy to set up
-* Support powerful filter syntax
-* Have detailed configuration
-
-**Cons**
-* Could be difficult to configure
-
-## MITM proxy based adblockers
+## Man-in-the-middle proxy based adblockers
 
 This includes any adblocker that uses HTTPS repacking to filter ads. This
 includes AdClear, AdFender, Adguard native app, etc.
@@ -72,3 +62,13 @@ includes AdClear, AdFender, Adguard native app, etc.
 * Are usually not free and open source
 * Could have performance issue due to encrypting and decrypting requests twice
 * Do not work with certificate pinning
+
+## Nano Adblocker and uBlock Origin
+
+**Pros**
+* Are easy to set up
+* Support powerful filter syntax
+* Have detailed configuration
+
+**Cons**
+* Could be difficult to configure
