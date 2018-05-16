@@ -19,7 +19,7 @@ The dashboard can be opened from the popup panel or extension options.
   * [Hyperlink auditing](https://github.com/gorhill/uBlock/wiki/Disable-hyperlink-auditing-beacon)
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
 * [My filters]
-* [My rules](https://github.com/gorhill/uBlock/wiki/Advanced-user-features#dynamic-filtering)
+* [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
 
 ## Logger
