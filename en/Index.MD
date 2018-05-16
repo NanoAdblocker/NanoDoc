@@ -27,6 +27,7 @@ The dashboard can be opened from the popup panel or extension options.
   * [Strict blocking](https://github.com/gorhill/uBlock/wiki/Strict-blocking)
 * [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
+  * [Nano Adblocker differences](/en/DefaultWhitelist.MD)
 
 ## Logger
 
