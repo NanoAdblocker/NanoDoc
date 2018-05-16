@@ -1,2 +1,0 @@
-# NanoDoc
-In depth documentation
