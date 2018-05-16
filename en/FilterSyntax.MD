@@ -30,7 +30,24 @@ filter.
 Although unlikely, this mapping **may change** if any of the mapped options get
 another meaning in uBlock Origin.
 
-## The Option `mp4`
+## The option `empty`
+
+Nano Adblocker will discard the filter if it has the option `empty`, uBlock
+Origin will instead ignore the option.
+
+This option is from Adguard and means redirect requests to an appropriate
+blank file, ignoring the option and block the request instead will likely to
+make things worse.
+
+## The option `fetch`
+
+Nano Adblocker does not differentiate between `fetch` and `xmlhttprequest`
+requests and does not recognize `fetch` as an option. `fetch` requests
+are mapped to `xmlhttprequest` by Edgyfy. uBlock Origin on Edge differentiates
+between `fetch` and `xmlhttprequest` but does not recognize `fetch` as an
+option.
+
+## The option `mp4`
 
 Nano Adblocker will replace the option `mp4` with
 `media,redirect=noopmp4-1s`, uBlock Origin will instead discard the filter.
@@ -46,12 +63,3 @@ future without notice**.
 
 A deprecation warning will be dispatched when this option is used in Nano
 Adblocker.
-
-## The Option `empty`
-
-Nano Adblocker will discard the filter if it has the option `empty`, uBlock
-Origin will instead ignore the option.
-
-This option is from Adguard and means redirect requests to an appropriate
-blank file, ignoring the option and block the request instead will likely to
-make things worse.
