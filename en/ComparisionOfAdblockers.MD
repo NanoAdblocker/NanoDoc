@@ -26,6 +26,15 @@ so you can choose the best one for you.
 **Cons**
 * Does not support custom filter list subscriptions
 
+## Brave browser
+
+**Pros**
+* Is easy to set up, simple to configure
+* Is very fast with its adblocking module implemented in native code
+
+**Cons**
+* Does not support custom filter rules nor custom filter list subscriptions
+
 ## Fair adblock
 
 **Pros**
