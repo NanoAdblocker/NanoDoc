@@ -37,14 +37,14 @@ The logger can be opened from the popup panel
 The internal optimizations and tips on writting fast filters.
 
 * [Cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F)
-  * [DOM surveyor (very out of date)](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update)
-* [Network filtering](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
-* [Selfies and compiled filters (very out of date)](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance)
+  * [DOM surveyor (maybe out of date)](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update)
+* [Network filtering (maybe out of date)](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
+* [Selfies and compiled filters (maybe out of date)](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance)
 
 ## Other details
 
 * [Comparision of adblockers](/en/ComparisonOfAdblockers.MD)
 * [Deploy with management policy](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
 * [General implementation overview](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
-* [Network filtering flow chart](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
+* [Network filtering flow chart (maybe out of date)](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
 * [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
