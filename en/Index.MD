@@ -6,7 +6,8 @@ Unless otherwise stated, Nano Adblocker behaves the same way as uBlock Origin.
 
 The window that opens when you click the extension icon.
 
-TODO
+* [Element picker](https://github.com/gorhill/uBlock/wiki/Element-picker)
+* [Element zapper](https://github.com/gorhill/uBlock/wiki/Element-zapper)
 
 ## Dashboard
 
@@ -20,7 +21,6 @@ The dashboard can be opened from the popup panel or extension options.
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
 * [My filters]
 * [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
-  * [Dynamic filtering examples](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
 
 ## Logger
