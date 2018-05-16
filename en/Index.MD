@@ -32,9 +32,9 @@ The logger can be opened from the popup panel
 
 The internal optimizations and tips on writting fast filters.
 
-TODO
+* [DOM surveyor] - Related to [this](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update) but need to be updated
 
 ## Other details
 
-* [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
 * [Deploy with management policy](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
+* [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
