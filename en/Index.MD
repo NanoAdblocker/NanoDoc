@@ -38,7 +38,7 @@ The internal optimizations and tips on writting fast filters.
 
 * [Cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F)
   * [DOM surveyor] - Related to [this](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update) but need to be updated
-* [Selfies] - Related to [this](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance) but need to be updated
+* [Selfies and compiled filters] - Related to [this](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance) but need to be updated
 
 ## Other details
 
