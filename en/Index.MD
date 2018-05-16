@@ -12,6 +12,7 @@ TODO
 
 * [Advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-settings)
 * [Advanced settings differences](/en/AdvancedSettings.MD)
+* [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Advanced-user-features#dynamic-filtering)
 
 ## Performance
 
