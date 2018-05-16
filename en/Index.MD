@@ -19,6 +19,7 @@ The dashboard can be opened from the popup panel or extension options.
   * [Advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-settings)
     * [Nano Adblocker: advanced settings differences](/en/AdvancedSettings.MD)
   * [Hyperlink auditing](https://github.com/gorhill/uBlock/wiki/Disable-hyperlink-auditing-beacon)
+  * [WebRTC IP leaking](https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address)
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
   * [Importing filter lists (slightly out of date)](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
 * [My filters]
