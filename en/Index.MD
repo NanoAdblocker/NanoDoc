@@ -6,7 +6,7 @@ Unless otherwise stated, Nano Adblocker behaves similarly to uBlock Origin.
 
 The window that opens when you click the extension icon.
 
-* [Quick overview](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
+* [Overview](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface)
 * [Element picker](https://github.com/gorhill/uBlock/wiki/Element-picker)
 * [Element zapper](https://github.com/gorhill/uBlock/wiki/Element-zapper)
 * [Per-site switches](https://github.com/gorhill/uBlock/wiki/Per-site-switches)
@@ -24,9 +24,11 @@ The dashboard can be opened from the popup panel or extension options.
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
   * [Importing filter lists (slightly out of date)](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
 * [My filters]
-  * [Inline script tag filtering (out of date)](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering)
-  * [Procedural cosmetic filters](https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters)
-  * [Regular expression network filters](https://github.com/gorhill/uBlock/wiki/Regular-expression-based-filters)
+  * [Network filters](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
+    * [Regular expression filters](https://github.com/gorhill/uBlock/wiki/Regular-expression-based-filters)
+  * [Cosmetic filters]
+    * [Procedural filters](https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters)
+  * [Inline script tag filtering (out of date)](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering)
 * [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
   * [Whitelist syntax](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
