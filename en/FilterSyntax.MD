@@ -11,6 +11,8 @@ resources. These resources, which start with `nanop-`, are very powerful
 so only privileged filters are allowed to use them. For security reasons,
 they will not work in uBlock Origin.
 
+Beside extra resources, Nano Adblocker also handles some options differently.
+
 ## Convenience Options
 
 Nano Adblocker will map options as follows for convenience:
