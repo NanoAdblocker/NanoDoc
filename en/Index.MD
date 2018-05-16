@@ -36,6 +36,6 @@ The internal optimizations and tips on writting fast filters.
 
 ## Other details
 
-* [Comparision of adblockers](/en/ComparisionOfAdblockers.MD)
+* [Comparision of adblockers](/en/ComparisonOfAdblockers.MD)
 * [Deploy with management policy](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
 * [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)

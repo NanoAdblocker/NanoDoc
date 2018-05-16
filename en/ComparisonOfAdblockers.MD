@@ -1,12 +1,12 @@
-# Comparision of Adblockers
+# Comparison of Adblockers
 
-This document gives you unbiased analysis of common adblockers (alphabetical)
-so you can choose the best one for you.
+An unbiased comparison of common adblockers (alphabetical) so you can choose
+the best one for you.
 
 ## AdBlock and Adblock Plus
 
 **Pros**
-* Are easy to set up, simple to configure
+* Are easy to set up and simple to configure
 * Have acceptable ads program, giving you the choice to reward good behaving
   websites
 * Are primary focus of EasyList filters
@@ -19,7 +19,7 @@ so you can choose the best one for you.
 ## Adguard browser extension
 
 **Pros**
-* Is easy to set up, simple to configure
+* Is easy to set up and simple to configure
 * Supports powerful filter syntax
 * Is well funded, has full time staff and customer help desk
 
@@ -29,7 +29,7 @@ so you can choose the best one for you.
 ## Brave browser
 
 **Pros**
-* Is easy to set up, simple to configure
+* Is easy to set up and simple to configure
 * Is very fast with its adblocking module implemented in native code
 
 **Cons**
@@ -38,7 +38,7 @@ so you can choose the best one for you.
 ## Fair adblock
 
 **Pros**
-* Is easy to set up, simple to configure
+* Is easy to set up and simple to configure
 * Allows good behaving ads, giving you the choice to reward good behaving
   websites
 
