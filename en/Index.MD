@@ -10,6 +10,7 @@ The window that opens when you click the extension icon.
 * [Element picker](https://github.com/gorhill/uBlock/wiki/Element-picker)
 * [Element zapper](https://github.com/gorhill/uBlock/wiki/Element-zapper)
 * [Per-site switches](https://github.com/gorhill/uBlock/wiki/Per-site-switches)
+* [Icon badge](https://github.com/gorhill/uBlock/wiki/Technical-inaccuracies-from-around-the-web)
 
 ## Dashboard
 
