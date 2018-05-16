@@ -21,7 +21,7 @@ The dashboard can be opened from the popup panel or extension options.
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
   * [Importing filter lists (slightly out of date)](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
 * [My filters]
-  * [Inline script tag filtering](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering)
+  * [Inline script tag filtering (out of date)](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering)
 * [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
   * [Whitelist syntax](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
@@ -37,9 +37,9 @@ The logger can be opened from the popup panel
 The internal optimizations and tips on writting fast filters.
 
 * [Cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F)
-  * [DOM surveyor] - Related to [this](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update) but need to be updated
+  * [DOM surveyor (very out of date)](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update)
 * [Network filtering](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
-* [Selfies and compiled filters] - Related to [this](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance) but need to be updated
+* [Selfies and compiled filters (very out of date)](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance)
 
 ## Other details
 
