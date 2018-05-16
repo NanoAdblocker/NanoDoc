@@ -4,8 +4,6 @@ A filter list is simply a text file, it can be served over HTTPS or file system.
 HTTP is also accepted for backwards compatibility. However, unless served from
 localhost, filter lists served over HTTP may be blocked in the future.
 
-Details on syntax can be found [here](/notes/filter-syntax.MD#filter-syntax).
-
 ## Headers
 
 Although optional, it is highly recommended that you write a well formatted
