@@ -10,6 +10,8 @@ TODO
 
 ## Dashboard
 
+The dashboard can be opened from the popup panel or extension options.
+
 * [Advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-settings)
 * [Advanced settings differences](/en/AdvancedSettings.MD)
 * [Cloud storage and synchronization](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
