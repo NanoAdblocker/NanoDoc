@@ -39,7 +39,9 @@ The dashboard can be opened from the popup panel or extension options.
 
 The logger can be opened from the popup panel
 
+* [Overview](https://github.com/gorhill/uBlock/wiki/The-logger)
 * [DOM inspector](https://github.com/gorhill/uBlock/wiki/DOM-inspector)
+* [Dynamic URL filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-URL-filtering)
 
 ## Performance
 
@@ -55,5 +57,5 @@ The internal optimizations and tips on writting fast filters.
 * [Comparision of adblockers](/en/ComparisonOfAdblockers.MD)
 * [Deploy with management policy](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
 * [General implementation overview](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
-* [Network filtering flow chart (maybe out of date)](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
+* [Network filtering flow chart](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
 * [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
