@@ -47,12 +47,11 @@ invalid) later, then Nano Adblocker will reset the update interval to the
 default value; uBlock Origin does not do this and will keep the last update
 interval that it has.
 
-The header is only parsed until the time unit, so you can add comments after
-the time unit.
+The header is only parsed until the time unit, so you can add comments after.
 
 Examples:
 ```
-! Expires: 1d
+! Expires: 1d (this is some comments)
 # Expires: 48h
 ! Expires: 1 day
 ! Expires: 2 days
