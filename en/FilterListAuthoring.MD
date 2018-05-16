@@ -34,7 +34,7 @@ or hours, but you must use an integer in either case. If you use hour as unit,
 it will be rounded *up* to the nearest day. The lower cap is 1 day and the upper
 cap is 60.
 
-uBlock Origin does not enforce an upper cap, and does not accept hour as unit.
+uBlock Origin does not enforce an upper cap.
 
 If this header is missing, Nano Adblocker will default to 3 days and uBlock
 Origin will default to 5. Some built-in filter lists of Nano Adblocker
@@ -52,6 +52,8 @@ the time unit.
 
 Examples:
 ```
+! Expires: 1d
+# Expires: 48h
 ! Expires: 1 day
 ! Expires: 2 days
 ! Expires: 24 hours
