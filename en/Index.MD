@@ -25,9 +25,9 @@ The dashboard can be opened from the popup panel or extension options.
   * [Network filters]
     * [Regular expression filters](https://github.com/gorhill/uBlock/wiki/Regular-expression-based-filters)
     * [Strict blocking](https://github.com/gorhill/uBlock/wiki/Strict-blocking)
-  * [Cosmetic filters]
+  * [Cosmetic filters]
     * [Procedural filters](https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters)
-  * [Inline script tag filtering (out of date)](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering)
+  * [Inline script tag filtering (out of date)](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering)
 * [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
   * [Whitelist syntax](https://github.com/gorhill/uBlock/wiki/How-to-whitelist-a-web-site)
