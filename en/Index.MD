@@ -12,17 +12,21 @@ TODO
 
 The dashboard can be opened from the popup panel or extension options.
 
-* [Advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-settings)
-* [Advanced settings differences](/en/AdvancedSettings.MD)
-* [Cloud storage and synchronization](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
-
-### Dashboard panes
-
 * [Settings](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings)
+  * [Cloud storage and synchronization](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
+  * [Advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-settings)
+  * [Advanced settings differences](/en/AdvancedSettings.MD)
+  * [Hyperlink auditing](https://github.com/gorhill/uBlock/wiki/Disable-hyperlink-auditing-beacon)
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
 * [My filters]
 * [My rules](https://github.com/gorhill/uBlock/wiki/Advanced-user-features#dynamic-filtering)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
+
+## Logger
+
+The logger can be opened from the popup panel
+
+* [DOM inspector](https://github.com/gorhill/uBlock/wiki/DOM-inspector)
 
 ## Performance
 
