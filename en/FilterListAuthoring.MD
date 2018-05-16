@@ -10,11 +10,11 @@ Although optional, it is highly recommended that you write a well formatted
 header. This can not only help others to understand the purpose of your filter,
 but also make automated indexing easier.
 
-Unlike Adblock Plus, Nano Adblocker and uBlock Origin will only parse a limited
-set of headers. Any header that you want to be parsed must also be in the first
-1024 characters of your filter list, and **only** the *first* one will take
-effect if you have duplicate headers (for example, if you have 3 title headers,
-then the first one that appears will override the next two).
+Unlike Adblock Plus, Nano Adblocker and uBlock Origin will **only** parse a
+limited set of headers. Any header that you want to be parsed must also be in
+the first 1024 characters of your filter list, and only the *first* one will
+take effect if you have duplicate headers (for example, if you have 3 title
+headers, then the first one that appears will override the next two).
 
 ### `! Title: <title>` or `# Title: <title>`
 
