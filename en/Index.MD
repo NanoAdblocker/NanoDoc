@@ -2,8 +2,6 @@
 
 Unless otherwise stated, Nano Adblocker behaves the same way as uBlock Origin.
 
-* [Comparision of adblockers](/en/ComparisionOfAdblockers)
-
 ## Popup panel
 
 The window that opens when you click the extension icon.
@@ -38,5 +36,6 @@ The internal optimizations and tips on writting fast filters.
 
 ## Other details
 
+* [Comparision of adblockers](/en/ComparisionOfAdblockers)
 * [Deploy with management policy](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
 * [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
