@@ -24,8 +24,8 @@ The dashboard can be opened from the popup panel or extension options.
   * [WebRTC IP leaking](https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address)
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
   * [Importing filter lists (slightly out of date)](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
-* [My filters]
-  * [Network filters](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
+* [My filters](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
+  * [Network filters]
     * [Regular expression filters](https://github.com/gorhill/uBlock/wiki/Regular-expression-based-filters)
     * [Strict blocking](https://github.com/gorhill/uBlock/wiki/Strict-blocking)
   * [Cosmetic filters]
