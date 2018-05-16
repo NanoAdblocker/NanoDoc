@@ -3,10 +3,10 @@
 Nano Adblocker has
 [extra resources](https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt),
 and when a filter references one of those resources, it will not work as
-intended in uBlock Origin out of the box. You can, however, load those extra
+intended in uBlock Origin out of the box. You can, however, load these extra
 resources to uBlock Origin in advanced settings to make those filters work.
 
-To combat stubborn websites, Nano Adblocker also has a few privileged
+To combat extra stubborn websites, Nano Adblocker also has a few privileged
 resources. These resources, which start with `nanop-`, are very powerful
 so only privileged filters are allowed to use them. For security reasons,
 they will not work in uBlock Origin.
