@@ -16,6 +16,8 @@ The dashboard can be opened from the popup panel or extension options.
 * [Advanced settings differences](/en/AdvancedSettings.MD)
 * [Cloud storage and synchronization](https://github.com/gorhill/uBlock/wiki/Cloud-storage)
 
+### Dashboard panes
+
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
 * [My rules](https://github.com/gorhill/uBlock/wiki/Advanced-user-features#dynamic-filtering)
 
