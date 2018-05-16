@@ -20,6 +20,7 @@ The dashboard can be opened from the popup panel or extension options.
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
 * [My filters]
 * [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
+  * [Dynamic filtering examples](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering---examples)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
 
 ## Logger
