@@ -19,7 +19,7 @@ The dashboard can be opened from the popup panel or extension options.
     * [Nano Adblocker: advanced settings differences](/en/AdvancedSettings.MD)
   * [Hyperlink auditing](https://github.com/gorhill/uBlock/wiki/Disable-hyperlink-auditing-beacon)
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
-  * [Importing filter lists](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
+  * [Importing filter lists (slightly out of date)](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
 * [My filters]
   * [Inline script tag filtering](https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering)
 * [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
