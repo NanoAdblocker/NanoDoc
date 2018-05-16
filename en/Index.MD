@@ -18,8 +18,11 @@ The dashboard can be opened from the popup panel or extension options.
 
 ### Dashboard panes
 
+* [Settings](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings)
 * [Filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-3rd-party-filters)
+* [My filters]
 * [My rules](https://github.com/gorhill/uBlock/wiki/Advanced-user-features#dynamic-filtering)
+* [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
 
 ## Performance
 
@@ -30,3 +33,4 @@ TODO
 ## Other details
 
 * [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
+* [Deploy with management policy](https://github.com/gorhill/uBlock/wiki/Deploying-uBlock-Origin)
