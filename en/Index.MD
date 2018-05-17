@@ -55,3 +55,4 @@ The internal optimizations and tips on writting fast filters.
 * [General implementation overview](https://github.com/gorhill/uBlock/wiki/Does-uBlock-block-ads-or-just-hide-them%3F)
 * [Network filtering flow chart](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
 * [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
+* [Protected pages](/en/ProtectedPages.MD)

@@ -6,6 +6,8 @@ pages.
 
 ## Chrome and Chromium
 
+Note that apps can protect additional pages when installed.
+
 Fully protected:
 * `about:` scheme
 * `chrome://` scheme
