@@ -7,6 +7,7 @@ pages.
 ## Chrome and Chromium
 
 Fully protected:
+* `about:` scheme
 * `chrome://` scheme
 * `chrome-extension://` scheme of other extensions
 * `https://chrome.google.com/` (extension store) except YouTube embeds
@@ -17,6 +18,7 @@ Partially protected:
 ## Edge
 
 Fully protected:
+* `about:` scheme
 * The default new tab page
 * `ms-browser-extension://` scheme
 
@@ -24,8 +26,8 @@ Fully protected:
 
 Fully protected:
 * `about:` scheme
-* The default new tab page
 * `https://addons.mozilla.org/` (extension store), network requests are visible
-  from extensions, but cannot be filtered or redirected (this includes the Google
-  Analytics script)
+  from extensions, but cannot be filtered or redirected since directives from
+  extensions are ignored (this includes the Google Analytics script)
+* The default new tab page
 * `moz-extension://` scheme of other extensions
