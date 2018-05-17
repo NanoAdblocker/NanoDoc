@@ -68,20 +68,20 @@ The first line of most filter lists is `[Adblock Plus 2.0]`; you should name
 the primary adblocker that your filter list support, that is, `[Nano Adblocker]`
 or `[uBlock Origin]`. Keep in mind that even if you write `[Adblock Plus 2.0]`,
 Adblock Plus will still reject your filter list if you use extended filter
-syntax. Note that if you want your filter to work in Adblock Plus, then this
-first line must be `[Adblock Plus 2.0]`.
+syntax. Note that if you want your filter to work at all in Adblock Plus, then
+this first line must be `[Adblock Plus 2.0]`.
 
 As a side note, lines starting with `[` are treated as comments in Nano
 Adblocker and uBlock Origin.
 
 Although not parsed, these are some headers that you should consider including:
-- `[! or #] Description: <short description>`
-- `[! or #] Author[s]: <author or list of authors>`
-- `[! or #] Version: <version number>`
-- `[! or #] Last modified: <date>`
-- `[! or #] Homepage: <URL>`
-- `[! or #] Support: <URL or email>`
-- `[! or #] Licen[s or c]e: <SPDX license identifier or URL>`
+- `<! or #> Description: <short description>`
+- `<! or #> Author[s]: <author or list of authors>`
+- `<! or #> Version: <version number>`
+- `<! or #> Last modified: <date>`
+- `<! or #> Homepage: <URL>`
+- `<! or #> Support: <URL or email>`
+- `<! or #> Licen[s or c]e: <SPDX license identifier or URL>`
 
 ## Publishing
 
@@ -97,11 +97,14 @@ Make sure the URL is pointing to a *raw* text file and not HTML. Also, only
 anchor elements work, and the click must be initiated by the user. If you abuse
 this feature, your domain will be blacklisted.
 
-At lease one of such link must be present on the page when `load` event is
-fired. Unlike Adblock Plus, Nano Adblocker and uBlock Origin do not parse the
-link like a query string, so do not switch the order of `location` and `title`.
+At lease one of such link must be present on the page within 997 milliseconds
+(0.997 seconds) after `load` event is fired. This also means those links will
+not work until this timeout finishes.
+
+Unlike Adblock Plus, Nano Adblocker and uBlock Origin do not parse the link
+like a query string, so do not switch the order of `location` and `title`.
 You should encode the URL and title with `encodeURIComponent`. Also, the title
-field is required.
+field is required even though it does not replace the `title` header.
 
 Note that `abp://` is also accepted, but it is recommended to use `ubo://` for
 filter lists with extended syntax.
