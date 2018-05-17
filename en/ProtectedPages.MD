@@ -1,8 +1,12 @@
 # Protected Pages
 
 Every browser has some pages that are protected from extensions. Requests from
-these pages may not be blockable and cosmetic filtering will not work on these
+these pages are not blockable and cosmetic filtering will not work on these
 pages.
+
+If you do not like the default new tab, you have to replace it with something
+else, Nano Adblocker and uBlock Origin cannot make small changes to it (except
+Chrome and Chromium where part of it can be blocked using network filter).
 
 ## Chrome and Chromium
 
