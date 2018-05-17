@@ -27,6 +27,7 @@ The dashboard can be opened from the popup panel or extension options.
   * [Regular expression](https://github.com/gorhill/uBlock/wiki/Regular-expression-based-filters)
   * [Strict blocking](https://github.com/gorhill/uBlock/wiki/Strict-blocking)
 * [My rules](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)
+  * [Default rules](/en/DefaultRules.MD)
 * [Whitelist](https://github.com/gorhill/uBlock/wiki/Dashboard:-Whitelist)
   * [Nano Adblocker differences](/en/DefaultWhitelist.MD)
 
