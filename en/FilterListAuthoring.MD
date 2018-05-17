@@ -2,7 +2,7 @@
 
 A filter list is simply a text file, it can be served over HTTPS or file system.
 HTTP is also accepted for backwards compatibility. However, unless served from
-localhost, filter lists served over HTTP may be blocked in the future.
+localhost, filter lists served over HTTP may be rejected in the future.
 
 ## Headers
 
@@ -11,7 +11,7 @@ header. This can not only help others to understand the purpose of your filter,
 but also make automated indexing easier.
 
 Unlike Adblock Plus, Nano Adblocker and uBlock Origin will **only** parse a
-limited set of headers. Any header that you want to be parsed must also be in
+limited set of headers. Any headers that you want to be parsed must also be in
 the first 1024 characters of your filter list, and only the *first* one will
 take effect if you have duplicate headers (for example, if you have 3 title
 headers, then the first one that appears will override the next two). Note that
@@ -39,9 +39,9 @@ days.
 
 If this header is missing, Nano Adblocker will default to 3 days and uBlock
 Origin will default to 5. Some built-in filter lists of Nano Adblocker
-also have different update intervals than uBlock Origin, please see
-[`assets.json`](/assets/assets.json) for more details. Note that this header
-will override the value set in `assets.json`.
+also have different update intervals than uBlock Origin, please check the
+appropriate `assets.json` file for more details. Note that this header will
+override the value set in `assets.json`.
 
 If your filter list used to have this header, but removed (or became invalid)
 later, then Nano Adblocker will reset the update interval to the default value;
