@@ -9,7 +9,7 @@ pages.
 Fully protected:
 * `chrome://` scheme
 * `chrome-extension://` scheme of other extensions
-* `https://chrome.google.com/` except YouTube embeds
+* `https://chrome.google.com/` (extension store) except YouTube embeds
 
 Partially protected:
 * The default new tab page, only network requests can be filtered
@@ -25,7 +25,7 @@ Fully protected:
 Fully protected:
 * `about:` scheme
 * The default new tab page
-* `https://addons.mozilla.org/`, network requests are visible from extensions,
-  but cannot be filtered or redirected (this includes the Google Analytics
-  script)
+* `https://addons.mozilla.org/` (extension store), network requests are visible
+  from extensions, but cannot be filtered or redirected (this includes the Google
+  Analytics script)
 * `moz-extension://` scheme of other extensions
