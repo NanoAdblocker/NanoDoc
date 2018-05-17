@@ -14,7 +14,8 @@ Unlike Adblock Plus, Nano Adblocker and uBlock Origin will **only** parse a
 limited set of headers. Any header that you want to be parsed must also be in
 the first 1024 characters of your filter list, and only the *first* one will
 take effect if you have duplicate headers (for example, if you have 3 title
-headers, then the first one that appears will override the next two).
+headers, then the first one that appears will override the next two). Note that
+Adblock Plus will instead take the *last* one in case of duplicate.
 
 ### `! Title: <title>` or `# Title: <title>`
 
@@ -32,9 +33,9 @@ Examples:
 Indicates the update interval of the filter list. Time can be expressed as days
 or hours, but you must use an integer in either case. If you use hour as unit,
 it will be rounded *up* to the nearest day. The lower cap is 1 day and the upper
-cap is 60.
-
-uBlock Origin does not enforce an upper cap.
+cap is 60. uBlock Origin does not enforce an upper cap. Shorthands such as `1d`
+and `24h` are also accepted. If you omit the unit, it will be assumed to be
+days.
 
 If this header is missing, Nano Adblocker will default to 3 days and uBlock
 Origin will default to 5. Some built-in filter lists of Nano Adblocker
@@ -42,19 +43,20 @@ also have different update intervals than uBlock Origin, please see
 [`assets.json`](/assets/assets.json) for more details. Note that this header
 will override the value set in `assets.json`.
 
-Note that if your filter list used to have this header, but removed (or became
-invalid) later, then Nano Adblocker will reset the update interval to the
-default value; uBlock Origin does not do this and will keep the last update
-interval that it has.
+If your filter list used to have this header, but removed (or became invalid)
+later, then Nano Adblocker will reset the update interval to the default value;
+uBlock Origin does not do this and will keep the last update interval that it
+has.
 
-The header is only parsed until the time unit, so you can add comments after.
+The header is only parsed until the first letter of time unit, so you can add
+comments after.
 
 Examples:
 ```
+! Expires: 3 (this means 3 days)
 ! Expires: 1d (this is some comments)
-# Expires: 48h
+# Expires: 36h (this is rounded up to 2 days)
 ! Expires: 1 day
-! Expires: 2 days
 ! Expires: 24 hours
 # Expires: 3 days
 # Expires: 3 days (update interval)
@@ -62,12 +64,15 @@ Examples:
 
 ### Other Common Headers
 
-The first line of most filter lists is `[Adblock Plus 2.0]`, so you should name
+The first line of most filter lists is `[Adblock Plus 2.0]`; you should name
 the primary adblocker that your filter list support, that is, `[Nano Adblocker]`
 or `[uBlock Origin]`. Keep in mind that even if you write `[Adblock Plus 2.0]`,
 Adblock Plus will still reject your filter list if you use extended filter
-syntax. Note that lines starting with `[` are treated as comments in Nano
-Adblocker and uBlock Origin, so this line is optional.
+syntax. Note that if you want your filter to work in Adblock Plus, then this
+first line must be `[Adblock Plus 2.0]`.
+
+As a side note, lines starting with `[` are treated as comments in Nano
+Adblocker and uBlock Origin.
 
 Although not parsed, these are some headers that you should consider including:
 - `[! or #] Description: <short description>`
