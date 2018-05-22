@@ -16,7 +16,7 @@ Fully protected:
 * `about:` scheme
 * `chrome://` scheme
 * `chrome-extension://` scheme of other extensions
-* `https://chrome.google.com/` (extension store) except YouTube embeds
+* `chrome.google.com` (extension store) except YouTube embeds
 
 Partially protected:
 * The default new tab page, only network requests can be filtered
@@ -32,8 +32,23 @@ Fully protected:
 
 Fully protected:
 * `about:` scheme
-* `https://addons.mozilla.org/` (extension store), network requests are visible
-  from extensions, but cannot be filtered or redirected since directives from
-  extensions are ignored (this includes the Google Analytics script)
+* network requests are visible from extensions, but cannot be filtered or
+  redirected since directives from extensions are ignored (this includes the
+  Google Analytics script for the extension store)
+  * `accounts-static.cdn.mozilla.net`
+  * `accounts.firefox.com`
+  * `addons.cdn.mozilla.net`
+  * `addons.mozilla.org` (extension store)
+  * `api.accounts.firefox.com`
+  * `content.cdn.mozilla.net`
+  * `content.cdn.mozilla.net`
+  * `discovery.addons.mozilla.org`
+  * `input.mozilla.org`
+  * `install.mozilla.org`
+  * `oauth.accounts.firefox.com`
+  * `profile.accounts.firefox.com`
+  * `support.mozilla.org`
+  * `sync.services.mozilla.com`
+  * `testpilot.firefox.com`
 * The default new tab page
 * `moz-extension://` scheme of other extensions
