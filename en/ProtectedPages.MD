@@ -42,7 +42,6 @@ Fully protected:
   * `addons.mozilla.org` (extension store)
   * `api.accounts.firefox.com`
   * `content.cdn.mozilla.net`
-  * `content.cdn.mozilla.net`
   * `discovery.addons.mozilla.org`
   * `input.mozilla.org`
   * `install.mozilla.org`
