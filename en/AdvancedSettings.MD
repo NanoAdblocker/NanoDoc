@@ -1,7 +1,6 @@
 # Advanced Settings Differences
 
 Nano Adblocker has different default for some advanced settings:
-- `assetFetchTimeout` defaults to `60`
 - `autoUpdateAssetFetchPeriod` defaults to `300` <sup>1</sup>
 - `autoUpdatePeriod` defaults to `4`
 - `manualUpdateAssetFetchPeriod` defaults to `1` <sup>1</sup>
