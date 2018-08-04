@@ -15,84 +15,22 @@ attacks are carried out.
 Beside different defaults, Nano Adblocker also offers a few more
 functionalities in the advanced settings page. These advanced functionalities
 **can change or break at any time**, make sure to back up your settings if you
-want to play around with them. Please open an issue when they break for you,
-or otherwise behave in a way that contradicts the description below. We cannot
-fix issues that we are not aware of, so please take the time to report them!
+want to play around with them. Please open an issue when they break for you, or
+otherwise behave in a way that contradicts the description below. We cannot fix
+issues that we are not aware of, so please take the time to report them!
 
 ## Extra Functionalities
 
-When a functionality is marked as `[unavailable]`, it may show in the advanced
-settings page, but will not work at all, not work as expected, or cause breakage
-when touched. Also, implications of the descriptions of such functionalities
-may not be accurate.
-
-When a functionality is marked as `[experimental]`, it may work properly, work
-sometimes, not work at all, not work as expected, or cause breakage when
-touched.
-
-Even when a functionality is considered stable, it is not guaranteed to always
-work. **Use at your own risk!**
-
-### `_nanoRestart` invokable
-
-Available since 1.0.0.29
-
-When invoked, Nano Adblocker will restart. **Any unsaved changes will be
-discarded** during the restart and all opened extension pages will be closed.
-
-### `_nanoForceRecompile` invokable
+### `Force recompile filters` button
 
 Available since 1.0.0.22
 
-When invoked, Nano Adblocker will discard compiled filters and Selfies then
-restart, during which *all* filters will be recompiled. **Any unsaved changes
-will be discarded** during the restart and all opened extension pages will be
-closed.
+When clicked, Nano Adblocker will discard compiled filters and internal selfies
+then restart, during which *all* filters will be recompiled. **Any unsaved
+changes will be discarded** during the restart and all opened extension pages
+will be closed.
 
-### `_nanoAttemptPolyfillHTMLFiltering` toggleable `[unavailable]`
-
-Default: `false`
-
-When set to `true`, Nano Adblocker will attempt to polyfill request body
-filtering for (only) browsers that are *marked* as do not natively support it.
-The polyfill is less reliable and consumes more resource. This settings is
-**not** affected by whether advanced mode is on.
-
-### `_nanoDisableHTMLFiltering` toggleable `[experimental]`
-
-Available since 1.0.0.29
-
-Default: `false`
-
-When set to `true`, Nano Adblocker will *mark* the browser as does not support
-native request body filtering regardless whether it actually supports it. An
-extension restart is required. This settings is **not** affected by whether
-advanced mode is on.
-
-### `_nanoDisconnectFrom_jspenguincom` toggleable
-
-Default: `false`
-
-When set to `true`, Nano Adblocker will no longer send background requests to
-`jspenguin.com`. Consequently, some default filters and internal assets will
-update up to 5 times *less* frequently. This settings **is bypassed** when you
-use Quick Issue Reporter.
-
-This settings is **not** affected by whether advanced mode is on.
-
-### `_nanoIgnorePerformanceAuditing` toggleable `[unavailable]`
-
-Default: `false`
-
-When set to `true`, Nano Adblocker will no longer discard slow filter rules
-from `My filters` when compiling filters **in the future**. Similarly, setting
-this toggle to `false` **or turning off advanced mode** will **not** cause slow
-filters to be immediately removed.
-
-Performance *will* be flushed down the toilet if not used properly, make sure
-you have a *really* fast computer when playing around with this settings.
-
-### `_nanoIgnoreThirdPartyWhitelist` toggleable `[experimental]`
+### `nanoIgnoreThirdPartyWhitelist` switch
 
 Available since 1.0.0.22
 
@@ -104,12 +42,12 @@ future**. Similarly, setting this toggle to `false` **or turning off advanced
 mode** will **not** cause discarded filters to be immediately restored.
 
 Negated domains are sometimes transformed into exception rules, and they will
-not be affected **for now**. This will be fixed soon.
+not be affected for now. This can change in the future.
 
 Setting this toggle to `true` **will definitely** break *many* websites and
 you are to fix them **by yourself**.
 
-### `_nanoMakeUserFiltersPrivileged` toggleable
+### `nanoMakeUserFiltersPrivileged` switch
 
 Available since 1.0.0.22
 
