@@ -49,6 +49,9 @@ are mapped to `xmlhttprequest` by Edgyfy. uBlock Origin on Edge differentiates
 between `fetch` and `xmlhttprequest` but does not recognize `fetch` as an
 option.
 
+If you are a filters maintainer and this difference is causing problems for
+you, please let us know.
+
 ## The option `mp4`
 
 Nano Adblocker will replace the option `mp4` with
