@@ -16,7 +16,7 @@ the best one for you.
 * Sell whitelists, can run into conflict of interests
 * Sometimes have performance issues
 
-## Adguard browser extension
+## AdGuard browser extension
 
 **Pros**
 * Is easy to set up and simple to configure
@@ -61,7 +61,7 @@ to block ads. This includes AdAway, DNS66, Pi Hole, etc.
 ## Man-in-the-middle proxy based adblockers
 
 This includes any adblocker that uses HTTPS repacking to filter ads. This
-includes AdClear, AdFender, Adguard native app, etc.
+includes AdClear, AdFender, AdGuard native app, etc.
 
 **Pros**
 * Can filter network requests system wide
