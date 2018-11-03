@@ -115,3 +115,9 @@ Filter`):
 ubo://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
 abp://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
 ```
+
+If custom protocol cannot be used, you can also use the dummy domain
+`subscribe.adblockplus.org`:
+```
+https://subscribe.adblockplus.org/?location=<URL>&title=<title>
+```
