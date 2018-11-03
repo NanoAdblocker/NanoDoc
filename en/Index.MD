@@ -56,3 +56,4 @@ The internal optimizations and tips on writting fast filters.
 * [Network filtering flow chart](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine)
 * [Permissions](https://github.com/gorhill/uBlock/wiki/Permissions)
 * [Protected pages](/en/ProtectedPages.MD)
+* [Resource library](https://github.com/gorhill/uBlock/wiki/Resources-Library)
