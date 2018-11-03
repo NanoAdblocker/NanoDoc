@@ -109,15 +109,16 @@ field is required even though it does not replace the `title` header.
 Note that `abp://` is also accepted, but it is recommended to use `ubo://` for
 filter lists with extended syntax.
 
+If custom protocol cannot be used, you can also use the dummy domain
+`subscribe.adblockplus.org`:
+```
+https://subscribe.adblockplus.org/?location=<URL>&title=<title>
+```
+
 Examples (with URL to be `https://example.com/filter.txt` and title `My
 Filter`):
 ```
 ubo://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
 abp://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
-```
-
-If custom protocol cannot be used, you can also use the dummy domain
-`subscribe.adblockplus.org`:
-```
-https://subscribe.adblockplus.org/?location=<URL>&title=<title>
+https://subscribe.adblockplus.org/?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
 ```
