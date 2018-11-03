@@ -34,8 +34,7 @@ Fully protected:
 * `about:` scheme
 * For the following protected pages, network requests are sometimes visible to
   extensions, but cannot be filtered or redirected since directives from
-  extensions are ignored (this includes the Google Analytics script for the
-  extension store):
+  extensions are ignored:
   * `accounts-static.cdn.mozilla.net`
   * `accounts.firefox.com`
   * `addons.cdn.mozilla.net`
