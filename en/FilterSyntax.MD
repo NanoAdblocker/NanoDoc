@@ -56,12 +56,14 @@ make things worse.
 
 Nano Adblocker does not differentiate between `fetch` and `xmlhttprequest`
 requests and does not recognize `fetch` as an option. `fetch` requests
-are mapped to `xmlhttprequest` by Edgyfy. uBlock Origin on Edge differentiates
-between `fetch` and `xmlhttprequest` but does not recognize `fetch` as an
-option.
+are mapped to `xmlhttprequest` by
+[Edgyfy](https://github.com/jspenguin2017/Edgyfy). uBlock Origin on Edge
+differentiates between `fetch` and `xmlhttprequest` but does not recognize
+`fetch` as an option.
 
-If you are a filters maintainer and this difference is causing problems for
-you, please let us know.
+If you are a filter lists maintainer and this difference is causing problems
+for you, please let us know by opening an issue
+[here](https://github.com/NanoAdblocker/NanoCore/issues).
 
 ## The option `mp4`
 
