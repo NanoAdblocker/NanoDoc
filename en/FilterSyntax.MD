@@ -32,6 +32,17 @@ filter.
 Although unlikely, this mapping **may change** if any of the mapped options get
 another meaning in uBlock Origin.
 
+uBlock Origin will instead map options as follows, but due to a bug, it does
+not always work:
+```
+    3p -> third-party
+    1p -> first-party
+
+   css -> stylesheet
+ frame -> subdocument
+   xhr -> xmlhttprequest
+```
+
 ## The option `empty`
 
 Nano Adblocker will discard the filter if it has the option `empty`, uBlock
