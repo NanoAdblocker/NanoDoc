@@ -115,7 +115,7 @@ If custom protocol cannot be used, you can also use the dummy domain
 https://subscribe.adblockplus.org/?location=<URL>&title=<title>
 ```
 
-Examples (with URL to be `https://example.com/filter.txt` and title `My
+Examples (with URL being `https://example.com/filter.txt` and title `My
 Filter`):
 ```
 ubo://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
