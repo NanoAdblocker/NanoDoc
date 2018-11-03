@@ -75,13 +75,13 @@ As a side note, lines starting with `[` are treated as comments in Nano
 Adblocker and uBlock Origin.
 
 Although not parsed, these are some headers that you should consider including:
-- `<! or #> Description: <short description>`
-- `<! or #> Author[s]: <author or list of authors>`
-- `<! or #> Version: <version number>`
-- `<! or #> Last modified: <date>`
-- `<! or #> Homepage: <URL>`
-- `<! or #> Support: <URL or email>`
-- `<! or #> Licen[s or c]e: <SPDX license identifier or URL>`
+- `[! or #] Description: <short description>`
+- `[! or #] Author[s]: <author or list of authors>`
+- `[! or #] Version: <version number>`
+- `[! or #] Last modified: <date>`
+- `[! or #] Homepage: <URL>`
+- `[! or #] Support: <URL or email>`
+- `[! or #] Licen[s or c]e: <SPDX license identifier or URL>`
 
 ## Publishing
 
