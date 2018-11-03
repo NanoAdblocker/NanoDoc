@@ -10,7 +10,7 @@ for Chrome and Chromium where part of it can be blocked using network filters).
 
 ## Chrome and Chromium
 
-Note that apps can protect additional pages when installed.
+Note that apps (not extensions) can protect additional pages when installed.
 
 Fully protected:
 * `about:` scheme
