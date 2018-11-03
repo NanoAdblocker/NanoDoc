@@ -14,4 +14,4 @@ behind-the-scene * image noop
 behind-the-scene * inline-script noop
 ```
 
-Nano Adblocker has `no-csp-reports: * true` along with rules above.
+Nano Adblocker has `no-csp-reports: * true` along with the rules above.
