@@ -26,7 +26,7 @@ Partially protected:
 Fully protected:
 * `about:` scheme
 * The default new tab page
-* `ms-browser-extension://` scheme
+* `ms-browser-extension://` scheme (including your own)
 
 ## Firefox
 
