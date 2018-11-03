@@ -45,9 +45,9 @@ The logger can be opened from the popup panel
 The internal optimizations and tips on writting fast filters.
 
 * [Cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F)
-  * [DOM surveyor (maybe out of date)](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update)
+  * [DOM surveyor (might be out of date)](https://github.com/gorhill/uBlock/wiki/Cosmetic-filtering-in-%C2%B5Block:-version-0.4.0.0-update)
 * [Network filtering](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine:-details)
-* [Selfies and compiled filters (maybe out of date)](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance)
+* [Selfies and compiled filters (might be out of date)](https://github.com/gorhill/uBlock/wiki/Launch-and-filter-lists-load-performance)
 
 ## Other details
 
