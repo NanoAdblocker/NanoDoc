@@ -1,7 +1,7 @@
 # Filter Syntax Differences
 
 Nano Adblocker has
-[extra resources](https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFiltersSource/NanoResources.txt),
+[extra resources](https://raw.githubusercontent.com/NanoAdblocker/NanoFilters/master/NanoFilters/NanoResources.txt),
 and when a filter references one of those resources, it will not work as
 intended in uBlock Origin out of the box. You can, however, load these extra
 resources to uBlock Origin in advanced settings to make those filters work.
