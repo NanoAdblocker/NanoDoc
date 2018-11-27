@@ -13,7 +13,7 @@ repository may not be immediately picked up by Nano Adblocker. I believe this
 is a necessary tradeoff as the resource library is very powerful, and ensuring
 its integrity is more important than the minor inconvenience that delayed
 updates can cause. I do check uAssets repository regularly, so the mirror will
-probably be only 1 or 2 days behind.
+probably only be 1 or 2 days behind.
 
 NanoFilters repository can only be modified by me, unlike uAssets repository
 where 4 people have write access, it is far more difficult to compromise
