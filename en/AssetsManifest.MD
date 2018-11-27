@@ -15,7 +15,8 @@ its integrity is more important than the minor inconvenience that delayed
 updates can cause. uAssets repository is closely monitored, so the mirror will
 probably only be 1 or 2 days behind.
 
-NanoFilters repository can only be modified by me, unlike uAssets repository
-where 4 people have write access, it is far more difficult to compromise
-NanoFilters repository. Nano Adblocker will still load uBlock Filters from
-uAssets repository as filter lists can only cause very limited damage.
+NanoFilters repository can only be modified by @jspenguin2017, unlike uAssets
+repository where 4 people have write access, it is far more difficult to
+compromise NanoFilters repository. Nano Adblocker will still load uBlock
+Filters from uAssets repository as filter lists can only cause very limited
+damage.
