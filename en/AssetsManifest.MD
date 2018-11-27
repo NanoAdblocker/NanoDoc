@@ -5,7 +5,7 @@ Nano Adblocker uses a
 Beside a few extra filter lists being added, some links and update period are
 also modified.
 
-Specifically, Nano Adblocker will also load uBlock Resources file from a mirror
+Specifically, Nano Adblocker will load uBlock Resources file from a mirror
 in [Nano Filters repository](https://github.com/NanoAdblocker/NanoFilters).
 This means that upstream updates may not be immediately picked up by Nano
 Adblocker. I believe this is necessary tradeoff as the resource library is very
