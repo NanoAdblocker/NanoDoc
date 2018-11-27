@@ -12,7 +12,7 @@ in Nano Filters repository. This means that upstream updates in uAssets
 repository may not be immediately picked up by Nano Adblocker. I believe this
 is a necessary tradeoff as the resource library is very powerful, and ensuring
 its integrity is more important than the minor inconvenience that delayed
-update can cause. I do check uAssets repository regularly, so the mirror will
+updates can cause. I do check uAssets repository regularly, so the mirror will
 probably be only 1 or 2 days behind.
 
 Nano Filters repository can only be modified by me, unlike uAssets repository
