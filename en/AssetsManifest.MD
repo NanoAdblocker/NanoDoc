@@ -1,0 +1,3 @@
+# Assets Manifest
+
+Nano Adblocker
