@@ -23,6 +23,8 @@ issues that we are not aware of, so please take the time to report them!
 
 ### `autoCommentFilterTemplate` option
 
+Available since 1.0.0.113
+
 Following placeholders are also supported:
 - `{{nanoHref}}`: Full URL of the webpage
 
