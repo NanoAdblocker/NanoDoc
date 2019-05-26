@@ -19,6 +19,13 @@ want to play around with them. Please open an issue when they break for you, or
 otherwise behave in a way that contradicts the description below. We cannot fix
 issues that we are not aware of, so please take the time to report them!
 
+## Extended Functionalities
+
+### `autoCommentFilterTemplate` option
+
+Following placeholders are also supported:
+- `{{nanoHref}}`: Full URL of the webpage
+
 ## Extra Functionalities
 
 ### `Force recompile filters` button
