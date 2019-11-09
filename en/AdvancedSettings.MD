@@ -3,6 +3,7 @@
 Nano Adblocker has different default for some advanced settings:
 - `autoUpdateAssetFetchPeriod` defaults to `180` <sup>1</sup>
 - `autoUpdatePeriod` defaults to `4`
+- `extensionUpdateForceReload` defaults to `true`
 - `manualUpdateAssetFetchPeriod` defaults to `1` <sup>1</sup>
 
 <sup>1</sup> When fetching assets, you should either get them all done in one
