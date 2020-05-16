@@ -13,6 +13,12 @@ open is how
 [Slowloris](https://en.wikipedia.org/wiki/Slowloris_(computer_security))
 attacks are carried out.
 
+Also, the behavior of some settings are different:
+- `popupPanelDisabledSections` expects a different bitfield:
+  - Bit `0`: Firewall panel
+- `popupPanelLockedSections` expects a different bitfield:
+  - Bit `0`: Firewall panel
+
 Beside different defaults, Nano Adblocker also offers a few more
 functionalities in the advanced settings page. These advanced functionalities
 **can change or break at any time**, make sure to back up your settings if you
