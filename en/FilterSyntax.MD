@@ -48,7 +48,7 @@ If you are a filter lists maintainer and this difference is causing problems
 for you, please let us know by opening an issue
 [here](https://github.com/NanoAdblocker/NanoCore/issues).
 
-## The Filters Editor
+## The Filter Editor
 
 Nano Editor is powered by Ace, and most
 [shortcut keys](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts)
