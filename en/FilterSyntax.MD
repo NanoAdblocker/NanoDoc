@@ -47,3 +47,9 @@ differentiates between `fetch` and `xmlhttprequest` but does not recognize
 If you are a filter lists maintainer and this difference is causing problems
 for you, please let us know by opening an issue
 [here](https://github.com/NanoAdblocker/NanoCore/issues).
+
+## Filter Editor
+
+Nano Editor is powered by Ace, and most
+[shortcut keys](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts)
+are the same.
