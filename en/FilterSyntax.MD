@@ -48,8 +48,8 @@ If you are a filter lists maintainer and this difference is causing problems
 for you, please let us know by opening an issue
 [here](https://github.com/NanoAdblocker/NanoCore/issues).
 
-## The Filter Editor
+# Filter Editor Differences
 
-Nano Editor is powered by Ace, and most
+Nano Editor is powered by Ace instead of CodeMirror, and most
 [shortcut keys](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts)
-are the same.
+are the same as the default shortcut keys of Ace.
