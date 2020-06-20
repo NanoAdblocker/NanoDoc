@@ -8,7 +8,7 @@ If you do not like the default new tab, you have to replace it with something
 else, Nano Adblocker and uBlock Origin cannot make small changes to it (except
 for Chrome and Chromium where part of it can be blocked using network filters).
 
-## Chrome and Chromium
+## Edge, Chrome, and Chromium
 
 Note that apps (not extensions) can protect additional pages when installed.
 
@@ -21,7 +21,7 @@ Fully protected:
 Partially protected:
 * The default new tab page, only network requests can be filtered
 
-## Edge
+## Legacy Edge
 
 Fully protected:
 * `about:` scheme
