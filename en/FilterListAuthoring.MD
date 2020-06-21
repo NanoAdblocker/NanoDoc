@@ -122,3 +122,7 @@ ubo://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filte
 abp://subscribe?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
 https://subscribe.adblockplus.org/?location=https%3A%2F%2Fexample.com%2Ffilter.txt&title=My%20Filter
 ```
+
+The total size of a filter list cannot shrink by more than 25% per update
+cycle, to ensure smooth updates for all users, you should add paddings to your
+filter list when removing a large amount of text.
